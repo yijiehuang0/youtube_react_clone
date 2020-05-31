@@ -1,0 +1,12 @@
+.video-grid {
+    display: flex; // flex display so 
+    flex-wrap: wrap;
+
+
+    // VideoPreview elemtns have this applied so that there is some
+    // margin to the left and to the bottom
+    & > * {
+      margin-left: 4px; 
+      margin-bottom: 24px;
+    }
+}

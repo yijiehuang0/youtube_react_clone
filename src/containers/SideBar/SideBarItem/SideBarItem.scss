@@ -1,0 +1,28 @@
+@import '../../../styles/shared.scss';
+.sidebar-item {
+    background: #f5f5f5;
+    span {
+      .icon {
+        margin-right: 20px;
+        color: #888888;
+      }
+    }
+  
+    // This is just in the case that there is a highlighted elemented
+    // Then the spans's font weight and color changes as a result. 
+    &.highlight-item {
+      span {
+        font-weight: 600;
+      }
+  
+      i.icon {
+        color: #ff0002;
+      }
+    }
+  }
+
+
+.sidebar-item-alignment-container {
+  display: flex;
+  align-items: center;
+}

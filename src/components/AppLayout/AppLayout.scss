@@ -1,0 +1,14 @@
+@import '../../styles/shared.scss';
+
+.app-layout {
+  & > *:not(:first-child) {
+    margin-top: $header-nav-height;
+  }
+  // everything but the first child will have this top header nav height
+
+  //cosmetics for the scroll bar to not look as bad as it does
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+}
