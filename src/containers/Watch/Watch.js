@@ -7,30 +7,32 @@ export class Watch extends React.Component {
   render() {
     return (
       <div className="watch-grid">
-        <div className="watch-grid">
-          <Video className="video" id="-7fuHEEmEjs" />
-          <div
-            className="metadata"
-            style={{ width: "100%", height: "100px", background: "#F91112" }}
-          >
-            Metadata
-          </div>
-          <div
-            className="video-info-box"
-            style={{ width: "100%", height: "100px", background: "#BD10E0" }}
-          >
-            Video Info box
-          </div>
-          <div
-            className="comments"
-            style={{ width: "100%", height: "100px", background: "#9013FE" }}
-          >
-            comments
-          </div>
-          <RelatedVideos className="relatedVideos" />
+        <Video className="video" id="-7fuHEEmEjs" />
+        <div
+          className="metadata"
+          style={{ width: "100%", height: "100px", background: "#F91112" }}
+        >
+          Metadata
         </div>
+        <div
+          className="video-info-box"
+          style={{ width: "100%", height: "100px", background: "#BD10E0" }}
+        >
+          Video Info box
+        </div>
+        <div
+          className="comments"
+          style={{ width: "100%", height: "100px", background: "#9013FE" }}
+        >
+          comments
+        </div>
+        <RelatedVideos className="relatedVideos" />
       </div>
     );
   }
 }
 export default Watch;
+
+// when to use div? to wrap everything that you want, so that it is easy to specifiy using css
+// className is used specifiy the class name
+// we specify that the sytle here is a dictionary of width, height, and background
