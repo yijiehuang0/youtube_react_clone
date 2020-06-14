@@ -1,0 +1,17 @@
+.next-up-container{ // aligns the items horizontallly and is responsible for showing hte next up heading
+    // and the autoplay element
+
+    // position th eheading to th left and the autoplay elemtn to the right
+    // maximize space between descendents
+    // we use the align item since it makes them vertically aligned
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    .up-next-toggle {
+        display:flex;
+        align-items: center;
+        span {
+            margin-right: 10px;
+        }
+    }
+}
