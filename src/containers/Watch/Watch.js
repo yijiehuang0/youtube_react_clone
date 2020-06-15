@@ -5,6 +5,8 @@ import { VideoPreview } from "../../components/VideoPreview/VideoPreview";
 import { Video } from "../../components/Video/Video";
 import { VideoMetadata } from "../../components/VideoMetadata/VideoMetadata";
 import { VideoInfoBox } from "../../components/VideoInfoBox/VideoInfoBox";
+import { Comments } from "../Comments/Comments";
+import { Divider } from "semantic-ui-react";
 export class Watch extends React.Component {
   render() {
     return (
@@ -12,12 +14,8 @@ export class Watch extends React.Component {
         <Video className="video" id="TiT-mG53Baw" />
         <VideoMetadata viewCount={1000} />
         <VideoInfoBox className="video-info-box" />
-        <div
-          className="comments"
-          style={{ width: "100%", height: "100px", background: "#9013FE" }}
-        >
-          comments
-        </div>
+        <Divider />
+        <Comments />
         <RelatedVideos className="relatedVideos" />
       </div>
     );
