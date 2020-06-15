@@ -1,4 +1,4 @@
-Clone of Youtube built off React, Enzyme, Jest and SCSS
+Clone of Youtube built using React, Redux, Redux-saga, Redux-reselet, Jest, Enzyme, Semantic UI, CSS Grid/ Flexbox 
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
