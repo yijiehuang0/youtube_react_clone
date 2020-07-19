@@ -2,7 +2,7 @@ import React from "react";
 import { Watch } from "./containers/Watch/Watch";
 import { Home } from "./containers/Home/Home";
 import { AppLayout } from "./components/AppLayout/AppLayout";
-import { Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 class App extends React.Component {
   render() {
@@ -21,3 +21,4 @@ class App extends React.Component {
 }
 
 export default App;
+

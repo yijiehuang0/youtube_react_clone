@@ -5,5 +5,6 @@ export const youtubeLibraryLoaded = createAction.bind(
   YOUTUBE_LIBRARY_LOADED
 );
 
-// here we bind some string here in this case it is CAPS: youtube libarary loaded and we bind that to
-// action here that is null
+// action here is null, the payload is the string
+// bind here allows for "this" to be attached to this action now, and it becomes operable
+// ex var button = myButton.click.bind(myButton)
